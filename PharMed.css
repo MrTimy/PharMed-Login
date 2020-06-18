@@ -1,0 +1,259 @@
+@font-face{
+    src: url('Roboto-Medium.ttf');
+    font-family: ROBOTO ;
+}
+.back{
+    background-image: url('amanda-jones-gmttqhtq_um-unsplash.jpg');
+    background-size: cover;
+    width: 100%;
+}
+.image1{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.logo{
+    width: 30%;
+    height: 80px;
+    background-image: url('logo1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.login{
+    width: 40%;
+    height: 450px;
+    border: 4px solid blue;
+    margin: auto;
+    background-color: white;
+}
+.icon{
+    margin-left: 50px;
+}
+.button{
+    width: 80%;
+    height: 40px;
+    font-family: ROBOTO ;
+    margin: 40px 0 0 50px;
+    border: 2px solid black;
+    display: block;
+}
+.button a {
+    font-family: ROBOTO ;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin:8px 0 0 53px;
+    font-size: 18px;
+}
+.vuxem{
+    width: 30%; 
+    height: 10px;
+    float: left;
+    margin: 30px 0 0 50px;
+}
+.or{
+    font-family: ROBOTO;
+    margin: 29px 0 0 256px ;
+}
+.vuxen{
+    width: 30%; 
+    height: 10px;
+    float: right;
+    margin: -17px 58px 0 0;
+}
+.passReset{
+    width: 80%;
+    height: 50px;
+    margin: 5px 0 0 50px;
+}
+.ForgPass{
+    width: 38%;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+   
+}
+.ForgPass a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: ROBOTO ;
+}
+.button2{
+    width: 50%;
+    height: 40px;
+    float: right;
+    color: white;
+    margin: 1px -8px 0 0;
+    background-color: greenyellow;
+}
+.button2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: ROBOTO ;
+    color: white;
+    position: absolute;
+    margin: 7px 0 0 77px;
+}
+.create{
+    width:80%;
+    height: 40px;
+    font-family: ROBOTO ;
+    margin: 20px 0 0 153px;
+}
+.create a{
+    text-decoration: none;
+    font-family: ROBOTO ;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px)and (max-width:480px){
+    .back{
+        background-image: url('amanda-jones-gmttqhtq_um-unsplash.jpg');
+        background-size: cover;
+        width: 100%;
+    }
+    .image1{
+        height: 100px;
+        width: 100%;
+        margin:0 0 70px 30px;
+    }
+    .logo{
+        width: 100%;
+        height: 100px;
+        background-image: url('logo1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .login{
+        width: 103%;
+        height: 347px;
+        border: 2px solid blue;
+        margin-left: 3px;
+        border-radius: 4px;
+        background-color: white;
+    }
+    
+.icon{
+    margin-left: 10px;
+}
+    .button{
+        width: 80%;
+        height: 40px;
+        margin: 20px 0 0 34px;
+        border: 1px solid black;
+        display: block;
+    }
+    .button a {
+        text-decoration: none;
+        color: black;
+        position: absolute;
+        margin:11px 0 0 40px;
+        font-size: 15px;
+    }
+    .vuxem{
+        width: 30%; 
+        height: 10px;
+        float: left;
+        margin: 30px 0 0 35px;
+    }
+    
+.or{
+    margin: 29px 0 0 178px ;
+    font-family: ROBOTO;
+}
+    .vuxen{
+        width: 30%; 
+        height: 10px;
+        float: right;
+        margin: -17px 38px 0 0;
+    }
+    .passReset{
+        width: 80%;
+        height: 50px;
+        margin: 5px 0 0 50px;
+    }
+    .ForgPass{
+        width: 50%;
+        height: 50px;
+        float: left;
+        margin: 10px 0 0 -16px;
+       
+    }
+    .ForgPass a{
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .button2{
+        width: 50%;
+        height: 40px;
+        float: right;
+        color: white;
+        margin: 1px 8px 0 0;
+        background-color: greenyellow;
+    }
+    .button2 a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        margin: 7px 0 0 47px;
+    }
+    .create{
+        width:80%;
+        height: 40px;
+        margin: 10px 0 0 47px;
+    }
+    .create a{
+        text-decoration: none;
+    }
+    .main{
+        background-color: rgb(146, 164, 197);
+    }
+    .image2{
+        height: 100px;
+        width: 100%;
+        margin:70px 0 70px 50px;
+    }
+    .item {
+        width: 280px;
+        height: 280px;
+        margin: 20px;
+        position: relative; }
+    .loader07 {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        position: relative;
+        animation: loader07-u04c322d6 1s linear infinite;
+        top: 50%;
+        margin: -8px auto 0; }
+      
+      @keyframes loader07-u04c322d6 {
+        0% {
+          box-shadow: 0 -27px 0 0 rgba(13, 14, 15, 0.05), 19px -19px 0 0 black, 27px 0 0 0 rgba(0, 82, 236, 0.2), 19px 19px 0 0 rgba(0, 82, 236, 0.3), 0 27px 0 0 rgba(0, 82, 236, 0.4), -19px 19px 0 0 rgba(0, 82, 236, 0.6), -27px 0 0 0 rgba(0, 82, 236, 0.8), -19px -19px 0 0 #0052ec; }
+        12.5% {
+          box-shadow: 0 -27px 0 0 #0b0b0c, 19px -19px 0 0 rgba(0, 82, 236, 0.05), 27px 0 0 0 rgba(0, 82, 236, 0.1), 19px 19px 0 0 rgba(0, 82, 236, 0.2), 0 27px 0 0 rgba(0, 82, 236, 0.3), -19px 19px 0 0 rgba(0, 82, 236, 0.4), -27px 0 0 0 rgba(0, 82, 236, 0.6), -19px -19px 0 0 rgba(0, 82, 236, 0.8); }
+        25% {
+          box-shadow: 0 -27px 0 0 rgba(12, 12, 14, 0.8), 19px -19px 0 0 #0052ec, 27px 0 0 0 rgba(0, 82, 236, 0.05), 19px 19px 0 0 rgba(0, 82, 236, 0.1), 0 27px 0 0 rgba(0, 82, 236, 0.2), -19px 19px 0 0 rgba(0, 82, 236, 0.3), -27px 0 0 0 rgba(0, 82, 236, 0.4), -19px -19px 0 0 rgba(0, 82, 236, 0.6); }
+        37.5% {
+          box-shadow: 0 -27px 0 0 rgba(5, 5, 5, 0.6), 19px -19px 0 0 black, 27px 0 0 0 #0052ec, 19px 19px 0 0 rgba(0, 82, 236, 0.05), 0 27px 0 0 rgba(0, 82, 236, 0.1), -19px 19px 0 0 rgba(0, 82, 236, 0.2), -27px 0 0 0 rgba(0, 82, 236, 0.3), -19px -19px 0 0 rgba(0, 82, 236, 0.4); }
+        50% {
+          box-shadow: 0 -27px 0 0 rgba(12, 13, 14, 0.4), 19px -19px 0 0 black, 27px 0 0 0 rgba(0, 82, 236, 0.8), 19px 19px 0 0 #0052ec, 0 27px 0 0 rgba(0, 82, 236, 0.05), -19px 19px 0 0 rgba(0, 82, 236, 0.1), -27px 0 0 0 rgba(0, 82, 236, 0.2), -19px -19px 0 0 rgba(0, 82, 236, 0.3); }
+        62.5% {
+          box-shadow: 0 -27px 0 0 rgba(13, 13, 14, 0.3), 19px -19px 0 0 black, 27px 0 0 0 rgba(0, 82, 236, 0.6), 19px 19px 0 0 rgba(0, 82, 236, 0.8), 0 27px 0 0 #0052ec, -19px 19px 0 0 rgba(0, 82, 236, 0.05), -27px 0 0 0 rgba(0, 82, 236, 0.1), -19px -19px 0 0 rgba(0, 82, 236, 0.2); }
+        75% {
+          box-shadow: 0 -27px 0 0 rgba(12, 13, 14, 0.2), 19px -19px 0 0 black, 27px 0 0 0 rgba(0, 82, 236, 0.4), 19px 19px 0 0 rgba(0, 82, 236, 0.6), 0 27px 0 0 rgba(0, 82, 236, 0.8), -19px 19px 0 0 #0052ec, -27px 0 0 0 rgba(0, 82, 236, 0.05), -19px -19px 0 0 rgba(0, 82, 236, 0.1); }
+        87.5% {
+          box-shadow: 0 -27px 0 0 rgba(17, 18, 19, 0.1), 19px -19px 0 0 black, 27px 0 0 0 rgba(0, 82, 236, 0.3), 19px 19px 0 0 rgba(0, 82, 236, 0.4), 0 27px 0 0 rgba(0, 82, 236, 0.6), -19px 19px 0 0 rgba(0, 82, 236, 0.8), -27px 0 0 0 #0052ec, -19px -19px 0 0 rgba(0, 82, 236, 0.05); }
+        100% {
+          box-shadow: 0 -27px 0 0 rgba(12, 13, 14, 0.05), 19px -19px 0 0 black, 27px 0 0 0 rgba(0, 82, 236, 0.2), 19px 19px 0 0 rgba(0, 82, 236, 0.3), 0 27px 0 0 rgba(0, 82, 236, 0.4), -19px 19px 0 0 rgba(0, 82, 236, 0.6), -27px 0 0 0 rgba(0, 82, 236, 0.8), -19px -19px 0 0 #0052ec; } }
+      
+      
+}
